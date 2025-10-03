@@ -24,7 +24,7 @@ export function CTA() {
               Ready to prioritize smarter?
             </h2>
             <p className="mb-10 text-lg leading-relaxed text-primary-foreground/90 text-balance">
-              Join hundreds of product teams who've transformed their feedback process. Start your free trial today—no
+              Join hundreds of product teams who&apos;ve transformed their feedback process. Start your free trial today—no
               credit card required.
             </p>
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
