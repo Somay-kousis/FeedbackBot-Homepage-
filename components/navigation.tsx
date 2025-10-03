@@ -56,7 +56,7 @@ export function Navigation() {
               <Link href="/login">Log in</Link>
             </Button>
             <Button size="sm" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
-              <Link href="/signup">Start free trial</Link>
+              <Link href="/signup">Sign Up</Link>
             </Button>
           </div>
         </div>

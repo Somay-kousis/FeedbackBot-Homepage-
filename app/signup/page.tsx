@@ -427,7 +427,7 @@ export default function SignupPage() {
                           className="flex-1 bg-accent text-accent-foreground hover:bg-accent/90"
                           size="lg"
                         >
-                          Start Free Trial
+                          Sign Up
                         </Button>
                       </div>
                     </form>

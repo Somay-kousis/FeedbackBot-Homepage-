@@ -1,8 +1,6 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
-import Link from "next/link"
 import { DashboardPreview } from "./dashboard-preview"
 
 export function Hero() {
@@ -58,23 +56,7 @@ export function Hero() {
             top pain points, and delivers a prioritized action list to your team every week.
           </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-col items-center justify-center gap-4 sm:flex-row"
-          >
-            <Button
-              size="lg"
-              className="h-12 bg-accent text-accent-foreground px-8 text-base font-semibold hover:bg-accent/90"
-              asChild
-            >
-              <Link href="/signup">Start free trial</Link>
-            </Button>
-            <Button size="lg" variant="outline" className="h-12 px-8 text-base font-semibold bg-transparent" asChild>
-              <Link href="#demo">Watch demo</Link>
-            </Button>
-          </motion.div>
+
 
           <motion.p
             initial={{ opacity: 0 }}
